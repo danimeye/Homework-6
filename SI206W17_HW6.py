@@ -36,7 +36,6 @@ class Student():
         return self.num_programs
 
 #### DONE WITH STUDENT CLASS DEFINITION
-
     
 print("===========")
 ## Code to show how this works...s
@@ -63,7 +62,6 @@ def personal_map(func, lst):
     for elem in lst:
         new_lst.append(func(elem))
     return new_lst
-
 
 ## [PROBLEM 3]
 print("\n\n***** Problem 3 *****")
@@ -141,7 +139,6 @@ print("\n\n***** Problem 8 *****")
 
 long_names = filter(lambda student: len(student.name) >= 5, programmers)
 
-
 ## Then write code to cast the value of long_names to a list and save it in the variable long_names_list. 
 
 long_names_list = list(long_names)
@@ -155,7 +152,6 @@ print("\n\n***** Problem 9 *****")
 ## Note that you can use another list you have already created for this problem.
 
 names_with_not_too_much_seniority = [stu.name for stu in programmers if len(stu.name) > stu.years_UM]
-
 
 ## [PROBLEM 10]
 print("\n\n***** Problem 10 *****")
