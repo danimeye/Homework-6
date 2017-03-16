@@ -188,7 +188,7 @@ def len_check(filelines):
 # Define main_filterer
 def main_filterer(filenames):
     a = readfiles(filenames)
-    yield len_check(a)
+    return(line for line in len_check(a))
 
 
 ## Uncomment this code to test so you can see easily what results from your code. DO uncomment it. DO NOT delete or change it. (You can add other code above while you work, of course.)
